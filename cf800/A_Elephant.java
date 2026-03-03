@@ -1,3 +1,4 @@
+package cf800;
 import java.util.Scanner;
 
 public class A_Elephant {
