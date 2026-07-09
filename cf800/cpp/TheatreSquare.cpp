@@ -22,3 +22,7 @@ int main(){
     cout<<num1*num2<<endl;
 
 }
+
+/* Approach -2 :
+there is other approach, instead of this we can use the ceil() function but again we need  to consider the floating point precision issue 
+*/
