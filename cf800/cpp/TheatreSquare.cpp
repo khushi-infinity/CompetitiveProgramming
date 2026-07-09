@@ -26,3 +26,9 @@ int main(){
 /* Approach -2 :
 there is other approach, instead of this we can use the ceil() function but again we need  to consider the floating point precision issue 
 */
+
+/*
+Approach -3 :
+We can also use the formula (n+a-1)/a to calculate the number of tiles
+this just works like the ceil() function but without any floating point precision issue
+*/
