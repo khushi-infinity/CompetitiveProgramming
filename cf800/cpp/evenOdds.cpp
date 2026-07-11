@@ -9,26 +9,15 @@ int main() {
    long long n,k;
     cin>>n>>k;
 
-   long long ans[n];
+   long long odd = (n+1)/2;
 
-   for(int i=1,j=0;i<=n;i++){
-    if(i%2 !=0){
-        ans[j] = i;
-        j++;
-        
-    }
-
+   if(k<=odd){
+       cout<<(2*k)-1<<endl;
+   }
+   else{
+       cout<<2*(k-odd)<<endl;
    }
 
-   int odd = (n+1)/2;
-
-   for(int i=2;i<=n;i++){
-    if(i%2 ==0){
-        ans[odd + (i/2)-1] = i;
-       
-    }
-   }
    
-  
-    cout<<ans[k-1]<<endl;
+   
 }
