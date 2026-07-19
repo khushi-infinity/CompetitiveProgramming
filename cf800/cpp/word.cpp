@@ -12,7 +12,7 @@ int main(){
     int ucount=0;
     for(int i=0;i<s.length();i++){
        
-        if(s[i].isupper()){
+        if(isupper(s[i])){
             ucount++;
         }else{
             lcount++;
